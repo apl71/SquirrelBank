@@ -1,0 +1,27 @@
+/* 全局CSS */
+
+body {
+    background-color: wheat;
+    margin: 0;                  /* body周围不留空白 */
+    display: flex;              /* 使用flex布局 */
+    flex-direction: column;     /* 垂直排列 */
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: "Courier New", "Microsoft YaHei", "微软雅黑", serif;
+}
+
+header {
+    /* 下面两行使logo和标题水平对齐 */
+    display: flex;
+    align-items: center;
+}
+
+#title {
+    margin: 0;                  /* 去除不知道哪里来的margin */
+    display: inline;            /* 前面不要换行 */
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;           /* 置底 */
+}
